@@ -8,5 +8,10 @@
         /// The test get
         /// </summary>
         public const string TestGet = "api/Test/Get";
+
+        /// <summary>
+        /// The validate card.
+        /// </summary>
+        public const string ValidateCard = "api/Card/ValidateCard";
     }
 }
