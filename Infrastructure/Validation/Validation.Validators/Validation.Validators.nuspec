@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Infrastructure.Validation.Validators</id>
+    <version>$version$</version>
+    <title>Infrastructure.Validation.Validators</title>
+    <authors>Infrastructure</authors>
+    <owners>Infrastructure</owners>
+    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains concrete implementations for Validation.Validators.</description>
+    <summary>This package contains concrete implementations for Validation.Validators.</summary>
+    <releaseNotes>Initial creation of the package</releaseNotes>
+    <copyright>Copyright © 2017</copyright>
+    <tags>Infrastructure Validation</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="**\Infrastructure.Validation.Validators.dll" target="lib\net45" />
+  </files>
+</package>

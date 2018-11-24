@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicQuery", "DynamicQuery\DynamicQuery.csproj", "{00ED12A6-19B7-406B-BF22-EAFEE9EAC8EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicQuery.Test", "DynamicQuery.Test\DynamicQuery.Test.csproj", "{70F8686C-5DD8-44CA-9FCC-0DAAEC988067}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		LocalPublish|Any CPU = LocalPublish|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00ED12A6-19B7-406B-BF22-EAFEE9EAC8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00ED12A6-19B7-406B-BF22-EAFEE9EAC8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00ED12A6-19B7-406B-BF22-EAFEE9EAC8EE}.LocalPublish|Any CPU.ActiveCfg = LocalPublish|Any CPU
+		{00ED12A6-19B7-406B-BF22-EAFEE9EAC8EE}.LocalPublish|Any CPU.Build.0 = LocalPublish|Any CPU
+		{00ED12A6-19B7-406B-BF22-EAFEE9EAC8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00ED12A6-19B7-406B-BF22-EAFEE9EAC8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70F8686C-5DD8-44CA-9FCC-0DAAEC988067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F8686C-5DD8-44CA-9FCC-0DAAEC988067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F8686C-5DD8-44CA-9FCC-0DAAEC988067}.LocalPublish|Any CPU.ActiveCfg = LocalPublish|Any CPU
+		{70F8686C-5DD8-44CA-9FCC-0DAAEC988067}.LocalPublish|Any CPU.Build.0 = LocalPublish|Any CPU
+		{70F8686C-5DD8-44CA-9FCC-0DAAEC988067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F8686C-5DD8-44CA-9FCC-0DAAEC988067}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="FilterEnumeration.cs" company="Blockbonds">
+//   Copyright © Blockbonds. All rights reserved.
+// </copyright>
+// --------------------------------------------------------------------------------------------------------------------
+namespace Blockbonds.Infrastructure.DynamicQuery
+{
+    using System;
+
+    /// <summary>
+    /// The filter enumeration.
+    /// </summary>
+    /// <typeparam name="T">
+    /// generic
+    /// </typeparam>
+    public class FilterEnumeration<T> : Enumeration<T> where T : IComparable<T>, new()
+    {
+        /// <summary>
+        ///     Gets or sets the operator.
+        /// </summary>
+        public QueryOperatorCodes Operator { get; set; }
+    }
+}

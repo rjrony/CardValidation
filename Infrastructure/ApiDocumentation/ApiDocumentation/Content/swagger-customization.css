@@ -1,0 +1,30 @@
+﻿/* swagger ui customization */
+
+body {
+  background-color: #FFFFFF;
+}
+
+body.swagger-section #header {
+    background-color: #15A8AF;
+}
+
+#api_info {
+    color: #15A8AF;
+}
+
+#api_info > div.info_description.markdown {
+    color: #25586A;
+}
+
+.swagger-section .swagger-ui-wrap p {
+    color: #25586A;
+}
+
+/*.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation div.content div.sandbox_header {
+  display: none;
+}*/
+
+#resources_container > div > h4 {
+    display: none;
+}
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Infrastructure</id>
+    <version>$version$</version>
+    <title>Infrastructure</title>
+    <authors>Infrastructure</authors>
+    <owners>Infrastructure</owners>
+    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains implementations of infrastructure.</description>
+    <summary>This package contains implementations of infrastructure.</summary>
+    <releaseNotes>Initial creation of the package</releaseNotes>
+    <copyright>Copyright © 2018</copyright>
+    <tags>Infrastructure</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="**\Infrastructure.dll" target="lib\net45" />
+  </files>
+</package>

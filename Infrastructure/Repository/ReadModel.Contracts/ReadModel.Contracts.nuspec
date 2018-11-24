@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Infrastructure.ReadModel.Contracts</id>
+    <version>$version$</version>
+    <title>Infrastructure.ReadModel.Contracts</title>
+    <authors>Infrastructure</authors>
+    <owners>Infrastructure</owners>
+    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains concrete implementations for ReadModel.Contracts.</description>
+    <summary>This package contains concrete implementations for ReadModel.Contracts.</summary>
+    <releaseNotes>Initial creation of the package</releaseNotes>
+    <copyright>Copyright © 2018</copyright>
+    <tags>Infrastructure Repository</tags>
+  </metadata>
+  <files>
+    <file src="**\Infrastructure.ReadModel.Contracts.dll" target="lib\net45" />
+  </files>
+</package>

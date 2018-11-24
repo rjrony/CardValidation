@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Infrastructure.Localization</id>
+    <version>$version$</version>
+    <title>Infrastructure.Localization</title>
+    <authors>Infrastructure</authors>
+    <owners>Infrastructure</owners>
+    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains interface for Localization.</description>
+    <summary>This package contains interface for Localization.</summary>
+    <releaseNotes>Initial creation of the package</releaseNotes>
+    <copyright>Copyright © 2017</copyright>
+    <tags>Infrastructure Localization</tags>
+    <dependencies>
+      <dependency id="Infrastructure.Localization.Contracts" version="0.1.17170.1" />
+    </dependencies>
+  </metadata>  
+  <files>
+    <file src="**\Infrastructure.Localization.dll" target="lib\net45" />
+  </files>
+</package>

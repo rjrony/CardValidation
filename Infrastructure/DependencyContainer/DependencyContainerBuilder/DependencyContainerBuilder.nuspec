@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<package>
+  <metadata>
+    <id>Infrastructure.DependencyContainerBuilder</id>
+    <version>$version$</version>
+    <title>Infrastructure.DependencyContainerBuilder</title>
+    <authors>Infrastructure</authors>
+    <owners>Infrastructure</owners>
+    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Infrastructure.DependencyContainerBuilder</description>
+    <releaseNotes>Initial creation of the package</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Infrastructure DependencyContainerBuilder Contracts</tags>
+
+<dependencies>
+</dependencies>
+  </metadata>
+  <files>
+    <file src="**\Infrastructure.DependencyContainerBuilder.dll" target="lib\net45" />
+  </files>
+</package>

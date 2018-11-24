@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Infrastructure.Interception</id>
+    <version>$version$</version>
+    <title>Infrastructure.Interception</title>
+    <authors>Infrastructure</authors>
+    <owners>Infrastructure</owners>
+    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package contains concrete implementations for Interception.</description>
+    <summary>This package contains concrete implementations for Interception.</summary>
+    <releaseNotes>Initial creation of the package</releaseNotes>
+    <copyright>Copyright © 2018</copyright>
+    <tags>Infrastructure Interception</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="**\Infrastructure.Interception.dll" target="lib\net45" />
+  </files>
+</package>
