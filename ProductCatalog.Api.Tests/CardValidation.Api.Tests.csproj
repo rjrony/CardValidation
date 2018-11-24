@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardControllerTests.cs" />
     <Compile Include="ConstantValues.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -94,6 +95,10 @@
     <ProjectReference Include="..\ProductCatalog.Api\CardValidation.Api.csproj">
       <Project>{c3d47106-f904-4e9a-ad2f-7b6a8cb0a052}</Project>
       <Name>CardValidation.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository.Models\Repository.Models.csproj">
+      <Project>{d0d60fca-f992-4537-baf4-420cfdc5137f}</Project>
+      <Name>Repository.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

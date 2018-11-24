@@ -12,7 +12,7 @@ using Infrastructure.Validation.WebApi;
 
 namespace CardValidation.Api.Controllers
 {
-    public class CardController : BaseApiController
+    public class CardController : ApiController
     {
         private readonly ICardValidatorService cardValidatorService;
 
@@ -30,7 +30,6 @@ namespace CardValidation.Api.Controllers
                 CardNumber = cardNumber, ExpiryDate = expiryDate
             };
 
-            this.Logger.Debug(() => $"Start validating card: {cardNumber}");
             var validateResult = await this.cardValidatorService.CardValidate(request);
             return validateResult;
         }
