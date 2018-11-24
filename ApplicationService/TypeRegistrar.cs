@@ -7,6 +7,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
+using CardValidation.ApplicationService.Contracts;
 using Infrastructure.Interception.Contract;
 
 namespace CardValidation.ApplicationService
@@ -26,8 +27,7 @@ namespace CardValidation.ApplicationService
         /// </param>
         public void Register(ITypeRegistrarService typeRegistrarService)
         {
-            //start from here
-            //typeRegistrarService.RegisterTypeUnityOfWork<IContract, Implementation>();
+            typeRegistrarService.RegisterTypeUnityOfWork<ICardValidator, CardValidator>();
         }
 
         #endregion

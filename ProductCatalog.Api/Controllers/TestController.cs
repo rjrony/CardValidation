@@ -16,7 +16,7 @@ namespace CardValidation.Api.Controllers
         /// <summary>
         ///     test controller constructor
         /// </summary>
-        /// <param name="repositoryProductCatalog"></param>
+        /// <param name="repository"></param>
         public TestController(IRepositoryCardValidation repository)
         {
             this.repository = repository;

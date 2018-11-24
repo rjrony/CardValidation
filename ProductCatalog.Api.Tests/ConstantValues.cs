@@ -1,7 +1,5 @@
-﻿namespace ProductCatalog.Api.Tests
+﻿namespace CardValidation.Api.Tests
 {
-    using System;
-
     public class ConstantValues
     {
 

@@ -2,11 +2,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("ProductCatalog.Api.Dtos.Validation.Tests")]
+[assembly: AssemblyTitle("CardValidation.Api.Dtos.Validation.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ProductCatalog.Api.Dtos.Validation.Tests")]
+[assembly: AssemblyProduct("CardValidation.Api.Dtos.Validation.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

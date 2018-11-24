@@ -58,8 +58,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardValidator.cs" />
+    <Compile Include="MetaCardValidators\AmexValidator.cs" />
+    <Compile Include="MetaCardValidators\JCBValidator.cs" />
+    <Compile Include="MetaCardValidators\MasterValidator.cs" />
+    <Compile Include="MetaCardValidators\MetaCardValidator.cs" />
+    <Compile Include="MetaCardValidators\UnknownValidator.cs" />
+    <Compile Include="MetaCardValidators\VisaValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeRegistrar.cs" />
+    <Compile Include="UtilityService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -326,7 +326,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>60889</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/ProductCatalog</IISUrl>
+          <IISUrl>http://localhost/CardValidation</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

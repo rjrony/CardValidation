@@ -25,7 +25,7 @@ namespace Infrastructure
 
         private static readonly List<Type> DomainTypes = new List<Type>();
 
-        private static readonly List<string> NamespaceInitals = new List<string> { "Infrastructure", "Foundation", "ExternalApi", "ProductCatalog" };
+        private static readonly List<string> NamespaceInitals = new List<string> { "Infrastructure", "Foundation", "ExternalApi", "CardValidation" };
 
         private static readonly object SyncObject = new object();
 

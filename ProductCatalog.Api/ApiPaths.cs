@@ -13,5 +13,7 @@
         /// The validate card.
         /// </summary>
         public const string ValidateCard = "api/Card/ValidateCard";
+
+        public const string ValidateCardPost = "api/Card/ValidateCard";
     }
 }
