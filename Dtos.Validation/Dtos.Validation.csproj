@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardValidationQueryRequestSpecification.cs" />
     <Compile Include="ConstantValues.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
