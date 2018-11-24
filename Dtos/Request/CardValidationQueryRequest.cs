@@ -7,7 +7,7 @@ using Infrastructure.DynamicQuery;
 
 namespace CardValidation.Api.Dtos.Request
 {
-    public class CardValidationQueryRequest : DynamicQueryRequest
+    public class CardValidationQueryRequest /*: DynamicQueryRequest*/
     {
         public string CardNumber { get; set; }
         public string ExpiryDate { get; set; }
