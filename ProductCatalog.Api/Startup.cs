@@ -4,9 +4,11 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
+using System.Data.Entity;
 using System.Web.Http;
 using CardValidation.Api;
 using CardValidation.Api.ApiDocumentation;
+using CardValidation.Repository;
 using Host.Owin;
 using Infrastructure;
 using Infrastructure.ApiDocumentation;
@@ -63,9 +65,9 @@ namespace CardValidation.Api
 
             app.UseOwinExceptionHandler<ApiExceptionConfiguration>();
 
-            //DbInitializer dbInitializer = bootstrapperWebApi.DependencyResolver.Resolve<DbInitializer>();
+            DbInitializer dbInitializer = bootstrapperWebApi.DependencyResolver.Resolve<DbInitializer>();
 
-            //Database.SetInitializer<RepositoryContext>(dbInitializer);
+            Database.SetInitializer<CardValidationContext>(dbInitializer);
             //AutoMapperConfig.RegisterMappings();
 
             this.ConfigurationExtension(config, bootstrapperWebApi.DependencyResolver);

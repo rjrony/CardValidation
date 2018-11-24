@@ -1,6 +1,8 @@
 ﻿using System.Data.Common;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using CardValidation.Repository.EtConfiguration;
+using CardValidation.Repository.Models;
 using Infrastructure.Repository;
 
 namespace CardValidation.Repository
@@ -25,8 +27,8 @@ namespace CardValidation.Repository
            // this.Audit();
         }
 
-        //start from here
-        //public DbSet<Model> Models { get; set; }
+
+        public DbSet<Card> Cards { get; set; }
 
         /// <summary>
         /// The on model creating.
@@ -40,8 +42,7 @@ namespace CardValidation.Repository
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
 
-            //start from here
-            //modelBuilder.Configurations.Add(new ModelConfiguration());
+            modelBuilder.Configurations.Add(new CardConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }

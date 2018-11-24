@@ -58,7 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CardValidator.cs" />
+    <Compile Include="CardValidatorService.cs" />
     <Compile Include="MetaCardValidators\AmexValidator.cs" />
     <Compile Include="MetaCardValidators\JCBValidator.cs" />
     <Compile Include="MetaCardValidators\MasterValidator.cs" />
@@ -109,6 +109,14 @@
     <ProjectReference Include="..\Infrastructure\Localization\Localization.Contract\Localization.Contracts.csproj">
       <Project>{7C655E61-3EF9-40E7-A31C-B7BC6A004991}</Project>
       <Name>Localization.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure\Logging\Logging.Contracts\Logging.Contracts.csproj">
+      <Project>{ecc359c1-24a6-4bf4-bc80-0000bb3715f6}</Project>
+      <Name>Logging.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure\Logging\Logging\Logging.csproj">
+      <Project>{92715497-735b-4670-8a65-237ef9912fb7}</Project>
+      <Name>Logging</Name>
     </ProjectReference>
     <ProjectReference Include="..\Infrastructure\Repository\Repository.Contract\Repository.Contracts.csproj">
       <Project>{14829601-d919-49df-995c-05548870d71d}</Project>

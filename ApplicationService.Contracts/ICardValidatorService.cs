@@ -8,8 +8,8 @@ using CardValidation.Api.Dtos.Views;
 
 namespace CardValidation.ApplicationService.Contracts
 {
-    public interface ICardValidator
+    public interface ICardValidatorService
     {
-        ValidateResultView CardValidate(CardValidationQueryRequest request);
+        Task<ValidateResultView> CardValidate(CardValidationQueryRequest request);
     }
 }

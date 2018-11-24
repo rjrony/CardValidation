@@ -27,7 +27,7 @@ namespace CardValidation.ApplicationService
         /// </param>
         public void Register(ITypeRegistrarService typeRegistrarService)
         {
-            typeRegistrarService.RegisterTypeUnityOfWork<ICardValidator, CardValidator>();
+            typeRegistrarService.RegisterTypeUnityOfWork<ICardValidatorService, CardValidatorService>();
         }
 
         #endregion
