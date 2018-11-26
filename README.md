@@ -15,7 +15,7 @@ It's test project for credit card validation.
 - **ORM mocking**: Effort
 
 
-##How to run:
+## How to run:
 1. Change connection string from “Web.config” file
    -	No need to run any db script 
    -	It’s code first project after building solution just hit any endpoint that will create database automatically 
